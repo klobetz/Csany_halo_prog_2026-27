@@ -35,7 +35,7 @@ print (bekeres)
 
 <<<<<<< HEAD
 szam2 = (input("kérek egy számot:"))
-=======
+
 szam2 = int(input("kérek egy számot:"))
 >>>>>>> 5f722b4 (új formázott kiíratás és adatok bekérése, gyakorlás)
 if szam2 % 2 == 0 :
@@ -46,7 +46,7 @@ else:
 
 <<<<<<< HEAD
 print("teszt")
-=======
+
 name = "Kata"
 age = 20
 height = 1.70
