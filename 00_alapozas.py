@@ -118,4 +118,16 @@ else:
 if not jelszo == "titkos":
     print("Helytelen jelszó")
 
+#belépési rendszer:
+felhasznalonev = "admin"
+jelszo = "titkos"
 
+iput_fn = input("Kérem a felhasználónevet: ")
+input_jelszo = input("Kérem a jelszót: ")
+
+if input_jelszo == jelszo and iput_fn == felhasznalonev and input_felhasznalonev != "":
+    print("belépés engedélyezve")
+else:
+    print("belépés megtagadva")
+    
+    
