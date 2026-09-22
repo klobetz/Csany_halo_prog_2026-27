@@ -33,18 +33,18 @@ bekeres = input("kérek valamit:")
 
 print (bekeres)
 
-<<<<<<< HEAD
+
 szam2 = (input("kérek egy számot:"))
 
 szam2 = int(input("kérek egy számot:"))
->>>>>>> 5f722b4 (új formázott kiíratás és adatok bekérése, gyakorlás)
+
 if szam2 % 2 == 0 :
     print ("a szám páros")
 else:
     print ("a szám páratlan")
 
 
-<<<<<<< HEAD
+
 print("teszt")
 
 name = "Kata"
@@ -63,4 +63,4 @@ address = input("Kérem a lakcímét: ")
 phone_number = input("Kérem a telefonszámát: ")
 email = input("Kérem az e-mail címét: ")
 print(f"Teljes név: {full_name}, Életkor: {age}, Születési dátum: {birth_date}, Lakcím: {address}, Telefonszám: {phone_number}, E-mail cím: {email}")
->>>>>>> 5f722b4 (új formázott kiíratás és adatok bekérése, gyakorlás)
+
