@@ -12,6 +12,8 @@ print(f"Tanuló neve: {name}, Osztály: {class_name}, Szak: {specialty}, Kedvenc
 print(f"Tanuló neve: {name}")
 print(f"Osztály: {class_name}")
 print(f"Szak: {specialty}")
+
+
 print(f"Kedvenc tantárgy: {favorite_subject}")
 print(f"Hány órája van egy héten: {weekly_hours}")
 
