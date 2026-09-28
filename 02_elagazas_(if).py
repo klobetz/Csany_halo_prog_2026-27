@@ -13,3 +13,12 @@ elif bekeres1 == "b":
 elif bekeres1 == "c":
     print("a megadott válasz az 'c'")
 
+#kérj be egy számot: döntsd el róla hogy pozítív negatív vagy 0-a
+bekeres3 = int(input("Kérek egy számot: "))
+if bekeres3 < 0:
+    print("a szám negatív")
+else:
+    if bekeres3 > 0:
+        print("a szám pozitív")
+    else:
+        print("A bekért szám 0-a")
