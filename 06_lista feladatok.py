@@ -39,3 +39,39 @@ print(minimum)
 suma = sum(list)
 print(suma)
 
+#készítsünk egy új üres listát, majd töltsük fel 5db véletlen számmal ésszámoljuk
+#ki az elemek átlagát.
+list3 =[]
+
+for i in range(7):
+    list3.append(random.randint(1,30))
+
+print(list3)
+#átlag kiszámítása
+
+#a lista elemeinek az összegét a sum() függvénnyel számoljuk ki.
+lista3_osszeg = sum(list3)
+print (f"Az elemek összege: {lista3_osszeg}")
+
+#a lista elemeinek a számát a len() függvénnyel számoljuk ki.
+lista3_db = len(list3)
+print (f"Az elemek száma: {lista3_db}")
+
+#az átlagot a lista elemeinek az összegét elosztjuk a lista elemeinek a számával.
+atlag = lista3_osszeg / lista3_db
+print (f"Az elemek átlaga: {atlag}")
+
+
+#mindez egy sorban is megoldható.
+print(lista3_osszeg / len(list3))
+
+#két tizedes jegyre kerekítve
+print(f"Az elemek átlaga: {atlag:.2f}")
+print(f"Az elemek átlaga: {round(atlag, 2)}")
+print(f"Az elemek átlaga: {round(sum(list3) / len(list3), 2)}")
+
+#kiítarások:
+szam = 1000000
+print(f"A szám ezres tagolással: {szam:,}") #ez a formázás a számok ezres tagolását oldja meg.
+print(f"Az elemek átlaga: {atlag:.2f}") #ez a formázás a számok tizedes jegyeinek a számát oldja meg.
+print(f"Az elemek átlaga: {(sum(list3) / len(list3)):.2f}") #ez a formázás a számok ezres tagolását és tizedes jegyeinek a számát oldja meg.
