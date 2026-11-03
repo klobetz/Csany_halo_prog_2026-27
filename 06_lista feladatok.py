@@ -20,8 +20,15 @@ print(lsit2)
 for (index, ert) in enumerate(list):
     print(f"{index} => {ert}")
 
+#lista elemeinek a sorba rendezése
 sorbarendez = sorted(list)
 print(sorbarendez)
+#egy sorba kiíratás a lista elemeinek
+print(sorted(list)) 
+
+# fordított kiíratása a lista elemeinek
+forditott = sorted(list, reverse=True)
+print(forditott)
 
 maximum = max(list)
 print(maximum)
@@ -32,5 +39,3 @@ print(minimum)
 suma = sum(list)
 print(suma)
 
-resto = sum(list)
-print(resto)
