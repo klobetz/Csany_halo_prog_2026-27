@@ -59,4 +59,28 @@ def feladat():
 #meghívom a függvényt:
 feladat()
 
+
+#időbélyeg ellenőrzés:
+ido_teszt = input("Add meg az időbélyeget (ÓÓ:PP:MM): ")
+reszek = ido_teszt.split(":")
+print(reszek)
+print(type(reszek))
 """
+
+ido = input("Add meg az időbélyeget (ÓÓ:PP:MM): ")
+reszek = ido.split(":")
+if len(reszek) != 3:
+    print("hibás, lista hossz")
+for resz in reszek:
+    if not resz.isdigit():
+        print ("nem szám")
+        break
+    ora = int(reszek[0])
+    perc = int(reszek[1])
+    masodperc = int(reszek[2])
+    if ora > 23 or perc > 59 or masodperc > 59:
+        print("Hibás időbélyeg érték")
+        break
+    print(f"A megadott időbélyeg: {ora}:{perc}:{masodperc}")
+    break
+
